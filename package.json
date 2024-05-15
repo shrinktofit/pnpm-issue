@@ -1,0 +1,14 @@
+{
+  "name": "pnpm-issue",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "node --test --loader ts-node/esm index.test.ts"
+  },
+  "packageManager": "pnpm@9.1.1",
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
